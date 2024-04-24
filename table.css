@@ -169,6 +169,8 @@ body{
     border-left: 1px solid black;
     border-right: 1px solid black;
     margin-left: 5px;
+    /* overflow-y: hidden; */
+
 }
 input
 {
@@ -187,9 +189,20 @@ input
     font-size: 20px;
 
 }
+#time
+{    
+    height: 20px;
+    padding: 15px 10px 10px 15px;
+    width:160px;
+    border: 1px solid black;
+    margin-left: 500px;
+    margin-top: -45px;
+    border-radius: 20px;
+}
 #tab
 {
-    height: 90vh;
+    height: 600px;
+    width: 750px;
     border: 0.5px solid black;
     margin-left: 25px;
     margin-top: 20px;
