@@ -1,86 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="form.css">
     <link rel="icon" href="logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
+
 <body>
-    <div id="forms">
-        <div id="form1">
-    <form action="" onsubmit="return validate();">
-        <input type="text" placeholder="Enter your name" id="name"><br><br>
-        <input type="text" placeholder="Enter your number" id="number"><br><br>
-        <input type="text" placeholder="enter your Email" id="email"><br><br>
-        <input type="text" placeholder="Enter your Password" id="pass"><br><br>
-        <input type="text" placeholder="Enter conform password" id="cpass"><br><br>
-        <input type="Submit">
+
+    <div id="main-container">
+        <!-- ========container1===================== -->
+        <div id="container1">
+            <div id="name">Rajan</div>
+            <div id="boards">
+                <a href="./index.html">
+                    <div id="dashboard1"><i class="fa-solid fa-house"></i> Dashboard</div>
+                </a>
+                <a href="./form.html">
+                    <div id="dashboard2"><i class="fa-solid fa-download"></i> Insert</div>
+                </a>
+                <a href="./table.html">
+                    <div id="dashboard3"><i class="fa-solid fa-table"></i> Table</div>
+                </a>
+                <a href="">
+                    <div id="dashboard4"><i class="fa-solid fa-money-bill-trend-up"></i> Market</div>
+                </a>
+                <a href="">
+                    <div id="dashboard5"><i class="fa-solid fa-bag-shopping"></i> Purchase</div>
+                </a>
+                <a href="">
+                    <div id="dashboard6"><i class="fa-solid fa-gear"></i> Setting</div>
+                </a>
+
+                <div id="logout">
+                    <a href=""><button id="dashboard7"><i class="fa-solid fa-right-from-bracket"></i>
+                            Log-Out</button></a>
+                </div>
+            </div>
+        </div>
+        <!-- ============= container 2 ========= -->
+        <div id="container2">
+
+            <input type="text" placeholder="Search Here">
+            <a id="saass" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+
+            <div id="time"></div>
+
+            <div id="forms">
+                <div id="form1">
+                    <form action="" onsubmit="return validate();">
+                        <!-- <input type="text" placeholder="Enter your name" id="name"><br><br> -->
+                        <input type="text" placeholder="Enter your name" id="nam"><br><br>
+                        <input type="text" placeholder="Enter your number" id="number"><br><br>
+                        <input type="text" placeholder="enter your Email" id="email"><br><br>
+                        <input type="text" placeholder="Enter your Password" id="pass"><br><br>
+                        <input type="text" placeholder="Enter confirm password" id="cpass"><br><br>
+                        <input type="Submit" id="sub">
+                </div>
+            </div>
+            </form>
+
+        </div>
+        <!-- =====container 3=================== -->
+        <div id="container3">
+            <div id="cont1">
+                <div id="cont2">
+                    <div id="image"></div>
+                    <a href="./login.html">
+                        <div id="raj"><i class="fa-solid fa-user"></i> Rajan kumar</div>
+                    </a>
+                    <div id="raj1">@mr_malhotraaa</div>
+                </div>
+                <div id="social">
+                    <a href="https://www.instagram.com/mr_malhotraaa/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100037204516179"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Raj_Malhotra4u"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div id="card-container"></div>
+                <div id="artist">Artist</div>
+                <div id="art">
+                    <div id="art0"></div>
+                    <div id="art1">Arijit singh</div>
+                    <a href="">
+                        <div id="art2">
+                            <div>Follow</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-    </form>
-
-    <script>
-        function validate()
-{
-let Name = document.getElementById('name').value;
-let contact = document.getElementById('number').value;
-let email = document.getElementById('email').value;
-let pass = document.getElementById('pass').value;
-let cpass = document.getElementById('cpass').value;
-
-
-    if(Name=="")
-    {
-        alert("fill the name please")
-        document.getElementById("Name").focus();
-        return false;
-    }
-    else if(contact.lenght<10 || contact.lenght>10)
-    {
-        alert("please enter 10 digit mobile number")
-        document.getElementById("contact").focus();
-        return false;
-    }
-    else if(isNaN(contact))
-    {
-        alert("enter only number in contact")
-        return false;
-    }
-    else if(email=="")
-    {
-        alert("plase fill the gmail")
-        document.getElementById("email").focus();
-        return false;
-
-    }
-    else if(pass=="")
-    {
-        alert("plese enter the password")
-        document.getElementById("pass").focus();
-        return false;
-
-    }
-    else if(cpass=="")
-    {
-        alert("enter the confirm password")
-        document.getElementById("cpass").focus();
-        return false;
-    }
-    else if(pass!=cpass)
-    {
-        alert("Doesn't match password");
-    }
-    else if(pass.match(/[!@#$%]/))
-    {
-        alert("please use special character");
-        
-    }
-}
-    </script>
+    <script src="form.js"></script>
 </body>
+
 </html>
