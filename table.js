@@ -12,7 +12,7 @@ async function fun()
     <td>${e.city}</td>
     <td>${e.occupation}</td>
 
-    `).join()
+    `).join(" ")
     q.innerHTML=v;
 }
 fun()
