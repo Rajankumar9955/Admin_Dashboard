@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97.6vh;
+    width: 100%;
+    
+}
+#form1{
+    border: 2px solid black;
+    height: 480px;
+    width: 400px;
+    background-color: aqua;
+    
+}
+#form1 input
+{
+    height: 10px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 12px;
+    padding: 20px;
+    font-size: 15px;
+}

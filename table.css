@@ -67,6 +67,7 @@ body{
   color: white;
   background-color: rgb(66, 23, 23);
 }
+/* ==========container1============ */
 #dashboard1
 {
     margin-left: 25px;
@@ -169,7 +170,7 @@ body{
     border-left: 1px solid black;
     border-right: 1px solid black;
     margin-left: 5px;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 
 }
 input
@@ -193,18 +194,40 @@ input
 {    
     height: 20px;
     padding: 15px 10px 10px 15px;
-    width:160px;
+    width:170px;
     border: 1px solid black;
     margin-left: 500px;
     margin-top: -45px;
     border-radius: 20px;
+}
+#lal
+{
+    background-color: aqua;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+}
+#lal1
+{
+    background-color: aqua;
+    font-weight: bold;
+}
+#lal2
+{
+    background-color: aqua;
+    font-weight: bold;
+}
+#lal3
+{
+    background-color: aqua;
+    font-weight: bold;
 }
 #tab
 {
     height: 600px;
     width: 750px;
     border: 0.5px solid black;
-    margin-left: 25px;
+    margin-left: 30px;
     margin-top: 20px;
 }
 #tab th
