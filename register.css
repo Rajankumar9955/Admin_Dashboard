@@ -18,12 +18,16 @@
   width: 350px;
   /* border: 2px solid black; */
   margin: 85px auto;
-  background-color: blanchedalmond;
+  background-color: rgb(205, 166, 166);;
 }
 #datta #sub
 {
     width: 322px;
-    background-color: rgb(32, 31, 29);
+    background-color: bisque; ;
+    /* color: white; */
+}
+#datta #sub:hover{
+    background-color:rgb(100, 13, 230);
     color: white;
 }
 #datta #para
