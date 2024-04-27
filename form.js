@@ -55,11 +55,11 @@ else if(pass!=cpass)
 {
 alert("Doesn't match password");
 }
-else if(pass.match(/[!@#$%]/))
-{
-alert("please use special character");
+// else if(pass.match(/[!@#$%]/))
+// {
+// alert("please use special character");
 
-}
+// }
 }
 // =========watch==================
 let a=document.getElementById("time")
@@ -69,3 +69,25 @@ setInterval(() => {
     a.innerHTML=r;
 },1000);
 // ==========watch end=============
+
+
+
+function fun()
+{
+    let from={
+      nam:document.getElementById("nam").value,
+      number:document.getElementById("number").value,
+      email:document.getElementById("email").value,
+      pass:document.getElementById("pass").value,
+      cpass:document.getElementById("cpass").value
+    }
+    fetch("http://localhost:3000/student",{
+        method:"POST",
+        header:{
+            content_type:'application/json',
+
+        },
+        body:JSON.stringify(from)
+    })
+    .then(res=>alert("success"))
+}
