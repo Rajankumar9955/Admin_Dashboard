@@ -14,11 +14,18 @@
 }
 #datta
 {
-  height: 320px;
+  height: 380px;
   width: 350px;
   /* border: 2px solid black; */
   margin: 85px auto;
   background-color: rgb(205, 166, 166);;
+}
+#log
+{
+    margin-left:130px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 30px;
 }
 #datta #sub
 {
@@ -35,7 +42,7 @@
     margin-left: 160px;
 }
 #datta a p{
-    margin-top: 2px;
+    margin-top: 4px;
     margin-left:125px;
     color: black;
 }
