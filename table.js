@@ -7,11 +7,11 @@ async function fun()
     let v=p.map((e)=>s+=`
     
     <tr>
-    <td>${e.id}</td>
-    <td>${e.name}</td>
-    <td>${e.city}</td>
-    <td>${e.occupation}</td>
-
+    <td>${e.nam}</td>
+    <td>${e.number}</td>
+    <td>${e.email}</td>
+    <td>${e.pass}</td>
+    <td>${e.cpass}</td>
     `).join(" ")
     q.innerHTML=v;
 }

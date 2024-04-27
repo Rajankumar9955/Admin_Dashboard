@@ -55,11 +55,10 @@ else if(pass!=cpass)
 {
 alert("Doesn't match password");
 }
-// else if(pass.match(/[!@#$%]/))
-// {
-// alert("please use special character");
-
-// }
+else if(pass.match(/[!@#$%]/))
+{
+alert("please use special character");
+}
 }
 // =========watch==================
 let a=document.getElementById("time")
