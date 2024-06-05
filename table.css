@@ -16,12 +16,13 @@ body{
 }
 #main-container
 {
-    height: 99.5vh;
+    height: 97.5vh;
     width: 100%;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     display: flex;
     overflow-y: auto;
+   
     
 }
 #container1
@@ -172,8 +173,14 @@ body{
     border-right: 1px solid black;
     margin-left: 5px;
     /* overflow-y: hidden; */
+    overflow-y: scroll;
+
     
 
+}
+#scroll{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 input
 {
@@ -187,6 +194,7 @@ input
     font-weight: bold;
     
 }
+
 #saass{
     /* border: 2px solid black; */
     font-size: 20px;
@@ -228,8 +236,8 @@ input
 }
 #tab
 {
-    height: 600px;
-    width: 750px;
+    height: 200px;
+    width: 740px;
     border: 0.5px solid black;
     margin-left: 30px;
     margin-top: 20px;

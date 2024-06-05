@@ -7,7 +7,24 @@
       "pass": "9955",
       "cpass": "9955",
       "id": "73c4"
+    },
+    {
+      "id": "acec",
+      "nam": "Rajan Kumar kumar",
+      "number": "9955236973",
+      "email": "krajan92946@gmail.com",
+      "pass": "Raj@1234",
+      "cpass": "Raj@1234"
+    },
+    {
+      "id": "10",
+      "pr_name": "apple",
+      "price": "3000"
+    },
+    {
+      "id": "10",
+      "pr_name": "sppfjhsdifb",
+      "price": "62306"
     }
-   
   ]
 }

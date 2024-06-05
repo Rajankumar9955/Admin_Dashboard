@@ -16,10 +16,11 @@ async function fun()
     q.innerHTML=v;
 }
 fun()
-
+// ==========watch===========
 let a=document.getElementById("time")
 setInterval(() => {
     let b= new Date();
     let s=b.toLocaleString();
     a.innerHTML=s;
 },1000);
+// =======================================
