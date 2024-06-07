@@ -1,0 +1,28 @@
+{
+  "student": [
+    {
+      "id": "3",
+      "nam": "RAHul kumar",
+      "number": "8554235845",
+      "email": "krajan92945@gmail.com",
+      "pass": "955@4655",
+      "cpass": "955@4655"
+    },
+    {
+      "id": "4",
+      "nam": "RAHul kumar",
+      "number": "8554235845",
+      "email": "krajan92945@gmail.com",
+      "pass": "955@4655",
+      "cpass": "955@4655"
+    },
+    {
+      "id": "5",
+      "nam": "Rajan kumar",
+      "number": "8554235845",
+      "email": "krajan92945@gmail.com",
+      "pass": "955@4655",
+      "cpass": "955@4655"
+    }
+  ]
+}

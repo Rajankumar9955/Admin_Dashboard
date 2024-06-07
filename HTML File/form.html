@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="form.css">
-    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="../CSS File/form.css">
+    <link rel="icon" href="../pics File/logo.png">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
@@ -60,12 +60,13 @@
                 <div id="form1">
                     <form action="" onsubmit="return validate();">
                         <!-- <input type="text" placeholder="Enter your name" id="name"><br><br> -->
-                        <input type="text" placeholder="Enter your name" id="nam"><br><br>
-                        <input type="text" placeholder="Enter your number" id="number"><br><br>
-                        <input type="text" placeholder="enter your Email" id="email"><br><br>
-                        <input type="text" placeholder="Enter your Password" id="pass"><br><br>
-                        <input type="text" placeholder="Enter confirm password" id="cpass"><br><br>
-                        <input type="Submit" id="sub" onclick="fun();">
+                        <input type="number" placeholder="Enter your ID" id="id"><br>
+                        <input type="text" placeholder="Enter your name" id="nam"><br>
+                        <input type="text" placeholder="Enter your number" id="number"><br>
+                        <input type="text" placeholder="enter your Email" id="email"><br>
+                        <input type="text" placeholder="Enter your Password" id="pass"><br>
+                        <input type="text" placeholder="Enter confirm password" id="cpass"><br>
+                        <input type="Submit" id="sub" onclick="add();">
                 </div>
             </div>
             </form>
@@ -101,7 +102,7 @@
             </div>
         </div>
     </div>
-    <script src="form.js"></script>
+    <script src="../JS file/table.js"></script>
 </body>
 
 </html>
