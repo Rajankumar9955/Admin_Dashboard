@@ -114,7 +114,7 @@ function add()
     fetch("http://localhost:3000/student",{
         method:"POST",
         header:{
-            content_type:'application/json',
+            'Content-type':'application/json',
 
         },
         body:JSON.stringify(from)
@@ -150,7 +150,7 @@ function frmedit()
   fetch(`http://localhost:3000/student/${Raj}`,{
     method:"PUT",
     headers:{
-        'Content_type':'application/json',
+        'Content-type':'application/json',
     },
     body:JSON.stringify(myformdata)
   })
@@ -169,3 +169,8 @@ setInterval(() => {
 
 //===============form opening on BOM=========
 
+// cross function
+
+function cross(){
+    document.getElementById("frmcolor").style.display="none";
+}

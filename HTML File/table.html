@@ -38,7 +38,9 @@
            
         </div>
       <div id="scroll">
-        <table id="tab" border=" "; style="align-items: center;">
+        <table id="tab"; style="align-items: center;">
+          <thead>
+            <tr>
             <th id="idd">ID</th>
             <th id="lal">Name</th>
             <th id="lal1">Number</th>
@@ -47,7 +49,7 @@
             <th id="lal3">C-Pass</th>
             <th id="lal4">Delete</th>
             <th  id="lal5">Edit</th>
-
+        </thead>
             <tbody id="data">
              <td></td>
              <td></td>
@@ -61,20 +63,20 @@
         </table>
     </div>
      </div>
+     
+     <form action="" style="display:none;" id="myfrm" >
 
-     <form action="" style="display:none;" id="myfrm">
-      
         <input type="text" placeholder="Enter ID please"  id="idie"><br>
        
         <input type="text" placeholder="Enter Name please"  id="namm"><br>
     
-        <input type="text" placeholder="Enter Email please"  id="numberr"><br>
+        <input type="text" placeholder="Enter Number"  id="numberr"><br>
       
-        <input type="text" placeholder="Enter Password please" id="emaill"><br>
+        <input type="text" placeholder="Enter Email please" id="emaill"><br>
       
-        <input type="text" placeholder="Enter C-Password please" id="passs"><br>
+        <input type="text" placeholder="Enter Password please" id="passs"><br>
   
-        <input type="text" placeholder="Enter ID please" id="cpasss"><br>
+        <input type="text" placeholder="Enter C-Pasword please" id="cpasss"><br>
         <input type="submit" onclick="frmedit();" id="subm">
      </form>
 
