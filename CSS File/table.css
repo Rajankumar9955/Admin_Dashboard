@@ -16,7 +16,7 @@ body{
 }
 #main-container
 {
-    height: 97.5vh;
+    height: 99.5vh;
     width: 100%;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -25,10 +25,11 @@ body{
    
     
 }
+/* ============container 1============ */
 #container1
 {
     height: 580px;
-    width: 250px;
+    width: 225px;
     /* border: 2px solid black; */
 }
 #name
@@ -168,11 +169,12 @@ body{
 {
     
     height: 580px;
-    width:810px;
+    width:860px;
     border-left: 1px solid black;
     border-right: 1px solid black;
     margin-left: 5px;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
+    overflow-x: hidden;
     overflow-y: scroll;
 
     
@@ -256,6 +258,11 @@ input
     color:black;
     font-weight: bold;
 }
+#lal5{
+    background-color: rgb(2, 182, 35);
+    color:black;
+    font-weight: bold;
+}
 
 #idd{
     background-color: aqua;
@@ -280,15 +287,31 @@ input
     
 }
 
-/* tbody td{
-    background-color: red;
+tbody td{
+    background-color: rgb(205, 235, 235);
+    padding:10px;
+    font-weight: bold;
 
-} */
+}
+td button
+{
+    background-color: rgb(37, 190, 14);
+    height: 50px;
+    width: 45px;
+    font-weight: bold;
+}
+td:hover{
+    background-color: black;
+    color: white;
+}
+#eight{
+    background-color: red;
+}
 /* =======container 3 =============== */
 #container3
 {
     height: 560px;
-    width: 250px;
+    width: 265px;
     /* border: 2px solid black; */
     margin-left: 5px;
     margin-top: 12px;
@@ -436,3 +459,41 @@ input
     background-color: black;
     color: white;
 }
+
+/* ===========form ================== */
+form{
+    /* border: 2px solid black; */
+    border-right: 2px solid black;
+    position: fixed;
+    top:180px;
+    background-color:midnightblue;
+    margin-left: 500px;
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+
+}
+input{
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+label{
+    margin-left:15px;
+}
+#subm{
+    margin-left:px;
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    margin-left:100px ;
+    background-color: rgb(21, 5, 5);
+    color:white;
+}
+#idie{
+    margin-top: 25px;
+}
+/* #sub:hover{
+    background-color: rgb(10, 196, 44);
+    color: black;
+} */

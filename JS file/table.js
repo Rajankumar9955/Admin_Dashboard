@@ -81,7 +81,9 @@ async function fun()
     let n= await fetch("http://localhost:3000/student")
     let p=await n.json()
     let s=""
-    let v=p.map((e)=>s+=`
+                       // s+=
+    let v=p.map((e)=>` 
+
     
     <tr>
     <td>${e.id}</td>
@@ -119,36 +121,36 @@ function add()
     })
     .then(res=>alert("success"))
 }
-
+//=====================delete section=======================
 function  mydete(id){
     fetch(`http://localhost:3000/student/${id}`,{
         method:"DELETE",
     })
     .then(res=>alert("Data delete successfully"))
 }
-
-let strid=0;
+//====================edit section========================
+let Raj=0;
 function myedit(id)
 {
-    strid=id
+    Raj=id
     document.getElementById("myfrm").style.display="block";
 }
 
 function frmedit()
 {
   let myformdata = {
-    id:document.getElementById("id").value,
-    nam:document.getElementById("nam").value,
-    number:document.getElementById("number").value,
-    email:document.getElementById("email").value,
-    pass:document.getElementById("pass").value,
-    cpass:document.getElementById("cpass").value
+    id:document.getElementById("idie").value,
+    nam:document.getElementById("namm").value,
+    number:document.getElementById("numberr").value,
+    email:document.getElementById("emaill").value,
+    pass:document.getElementById("passs").value,
+    cpass:document.getElementById("cpasss").value
   }  
 
-  fetch(`http://localhost:3000/student/${strid}`,{
+  fetch(`http://localhost:3000/student/${Raj}`,{
     method:"PUT",
     headers:{
-        'content_type':'application/json'
+        'Content_type':'application/json',
     },
     body:JSON.stringify(myformdata)
   })
@@ -164,3 +166,6 @@ setInterval(() => {
     a.innerHTML=s;
 },1000);
 // =======================================
+
+//===============form opening on BOM=========
+
