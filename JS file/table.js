@@ -167,10 +167,21 @@ setInterval(() => {
 },1000);
 // =======================================
 
-//===============form opening on BOM=========
 
 // cross function
 
-function cross(){
-    document.getElementById("frmcolor").style.display="none";
+// function cross(){
+//     document.getElementById("cross").style.display="none";
+// }
+
+
+
+
+// =========dark mode of form=====
+function darkk(){
+    document.body.classList.toggle("dark")
 }
+//-============Dark mode of table
+ function dark(){
+    document.body.classList.toggle("darkk")
+ }

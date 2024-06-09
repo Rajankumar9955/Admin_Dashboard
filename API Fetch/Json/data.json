@@ -1,52 +1,36 @@
 {
   "student": [
     {
-      "id": "85",
-      "nam": "Bittu Kumar Sah",
-      "number": "8554235845",
-      "email": "bittusah386@gmail.com",
-      "pass": "virat@1234",
-      "cpass": "4535"
+      "id": "1",
+      "nam": "Rajan kumar",
+      "number": "9955236973",
+      "email": "suraj555@gmail.com",
+      "pass": "Raj@1234",
+      "cpass": "Raj@1234"
     },
     {
-      "id": "5",
-      "nam": "vikash kumar",
-      "number": "970822274",
-      "email": "krajan92945@gmail.com",
-      "pass": "vikash@1234",
-      "cpass": "vikash@1234"
+      "id": "2",
+      "nam": "suraj kumar",
+      "number": "9955236973",
+      "email": "suraj555@gmail.com",
+      "pass": "Raj@1234",
+      "cpass": "Raj@1234"
     },
     {
-      "id": "6",
-      "nam": "Hariom Kumar",
-      "number": "970822274",
-      "email": "krajan92945@gmail.com",
-      "pass": "vikash@1234",
-      "cpass": "vikash@1234"
+      "id": "3",
+      "nam": "bittu kumar",
+      "number": "650956294",
+      "email": "hk328368@gmail.com",
+      "pass": "Raj@1234",
+      "cpass": "Raj@1234"
     },
     {
-      "id": "102",
-      "nam": "sahanwaj khan",
-      "number": "970822274",
-      "email": "krajan92945@gmail.com",
-      "pass": "vikash@1234",
-      "cpass": "vikash@1234"
-    },
-    {
-      "id": "512",
-      "nam": "Qasim sir",
-      "number": "970822274",
-      "email": "krajan92945@gmail.com",
-      "pass": "vikash@1234",
-      "cpass": "vikash@1234"
-    },
-    {
-      "id": "01",
-      "nam": "Deepika",
-      "number": "970822274",
-      "email": "krajan92945@gmail.com",
-      "pass": "vikash@1234",
-      "cpass": "vikash@1234"
+      "id": "4",
+      "nam": "bittu kumar",
+      "number": "bittu@85gmail.com",
+      "email": "hk328368@gmail.com",
+      "pass": "Raj@1234",
+      "cpass": "Raj@1234"
     }
   ]
 }

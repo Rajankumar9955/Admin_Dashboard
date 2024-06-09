@@ -18,8 +18,8 @@ body{
 {
     height: 99.5vh;
     width: 100%;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
     display: flex;
     overflow-y: auto;
    
@@ -29,14 +29,14 @@ body{
 #container1
 {
     height: 580px;
-    width: 225px;
+    width: 210px;
     /* border: 2px solid black; */
 }
 #name
 {
     /* border: 2px solid black; */
     margin-top: 25px;
-    margin-left: 75px;
+    margin-left: 60px;
     font-size: 45px;
     width: 100px;
 }
@@ -52,7 +52,7 @@ body{
 }
 #logout{
     margin-top: 15px;
-    margin-left: 48px;
+    margin-left: 30px;
     /* border: 2px solid black; */
     width: 105px;
     height: 100px;
@@ -70,27 +70,36 @@ body{
   color: white;
   background-color: rgb(66, 23, 23);
 }
-/* ==========container1============ */
+
 #dashboard1
 {
-    margin-left: 25px;
+    margin-left: 10px;
+    width: 130px;
     font-size: 20px;
     height:30px;
     border-radius: 20%;
     border:2px solid black;
     padding: 20px ;
+    width: 130px;
+    font-weight: bold;
+    color:black;
+    background-color: white;
 
    
 }
 #dashboard2
 {
-    margin-left: 25px;
+    margin-left: 10px;
     font-size: 20px;
     height:30px;
     border-radius: 20%;
     border:2px solid black;
     padding: 20px ;
-    
+    margin-left: 10px;
+    width: 130px;
+    font-weight: bold;
+    color:black;
+    background-color: white;
    
 }
 #dashboard3
@@ -101,7 +110,11 @@ body{
     border-radius: 20%;
     border:2px solid black;
     padding: 20px ;
-    
+    margin-left: 10px;
+    width: 130px;
+    font-weight: bold;
+    color:black;
+    background-color: white;
    
 }
 #dashboard4
@@ -112,27 +125,39 @@ body{
     border-radius: 20%;
     border:2px solid black;
     padding: 20px ;
-   
+    margin-left: 10px;
+    width: 130px;
+    font-weight: bold;
+    color:black;
+    background-color: white;
 }
 #dashboard5
 {
-    margin-left: 25px;
+  
     font-size: 20px;
     height:30px;
     border-radius: 20%;
     border:2px solid black;
     padding: 20px ;
-   
+    margin-left: 10px;
+    width: 130px;
+    font-weight: bold;
+    color:black;
+    background-color: white;
 }
 #dashboard6
 {
-    margin-left: 25px;
+    margin-left: 10px;
+    width: 130px;
     font-size: 20px;
     height:30px;
     border-radius: 20%;
     border:2px solid black;
     padding: 20px ;
-    /* width: 120px; */
+    width: 130px;
+    font-weight: bold;
+    color:black;
+    background-color: white;
 }
 #dashboard1:hover
 {
@@ -170,8 +195,8 @@ body{
     
     height: 580px;
     width:860px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
     margin-left: 5px;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -179,40 +204,76 @@ body{
 #scroll{
     overflow-y: scroll;
     scroll-behavior: smooth;
+    margin-top: -15px;
+    width: 890px;
+    /* overflow-y: hidden; */
+    margin-left: -38px;
+    overflow-x: hidden;
+
 }
-input
+/* ==================input============== */
+#text
 {
     height:10px;
-    width: 350px;
+    width: 380px;
     padding: 15px;
-    margin-left:25px ;
-    margin-top: 10px;
+    margin-left:55px ;
+    margin-top: 15px;
     font-size: 15px;
     border-radius: 10px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
-
 #saass{
     /* border: 2px solid black; */
     font-size: 20px;
     margin-left: -35px;
-
+    height: 20px;
+    width: 50px;
 }
+/* ============= */
 #time
 {    
     height: 20px;
     padding: 15px 10px 10px 15px;
-    width:170px;
-    border: 1px solid black;
-    background-color: antiquewhite;
+    width:210px;
+    /* border: 1px solid black;
+    background-color: antiquewhite; */
     margin-left: 500px;
     margin-top: -45px;
     border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
 }
+#modedark{
+    margin-top: 20px;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 20px;
+    width: 800px;
+    margin-left: 25px;
+    /* border: 2px solid black; */
+}
+#darkk{
+    margin-left: 750px;
+    margin-top: -30px;
+    font-size: 20px;
+    color: black;
+    
+}
+/* ========table Dark mode */
+.darkk
+{
+    background-color: black;
+    color: white;
+}
+/* =================== */
 #lal
 {
-    background-color: aqua;
+    background-color: rgb(163, 112, 161);
     height: 40px;
     width: 100px;
     font-weight: bold;
@@ -222,9 +283,18 @@ input
     background-color: black;
     color: white;
 }
+#lal0{
+    background-color: rgb(163, 112, 161);
+    font-weight: bold;
+    width: 40px;
+}
+#lal0:hover{
+    background-color: black;
+    color: white;
+}
 #lal1
 {
-    background-color: aqua;
+    background-color: rgb(163, 112, 161);
     font-weight: bold;
 }
 #lal1:hover{
@@ -233,7 +303,7 @@ input
 }
 #lal2
 {
-    background-color: aqua;
+    background-color: rgb(163, 112, 161);
     font-weight: bold;
 }
 #lal2:hover{
@@ -242,7 +312,7 @@ input
 }
 #lal3
 {
-    background-color: aqua;
+    background-color: rgb(163, 112, 161);
     font-weight: bold;
 }
 #lal3:hover{
@@ -250,7 +320,7 @@ input
     color: white;
 }
 #lal4{
-    background-color: red;
+    background-color: rgb(161, 46, 11);
     color:black;
     font-weight: bold;
 }
@@ -259,22 +329,12 @@ input
     color:black;
     font-weight: bold;
 }
-
-#idd{
-    background-color: aqua;
-    font-weight: bold;
-    width: 40px;
-}
-#idd:hover{
-        background-color: black;
-        color: white;
-}
 #tab
 {
     height: 200px;
     width: 740px;
-    border: 0.5px solid black;
-    margin-left: 30px;
+    /* border: 0.5px solid black; */
+    margin-left: 50px;
     margin-top: 20px;
 }
 #tab tr:nth-child(odd)
@@ -292,9 +352,10 @@ input
 }
 
 tbody td{
-    background-color: rgb(205, 235, 235);
+    background-color: rgb(36, 42, 42);
     padding:10px;
     font-weight: bold;
+    color: white;
 
 }
 td button
@@ -308,16 +369,20 @@ td:hover{
     background-color: black;
     color: white;
 }
-#eight{
+/* #seven {
     background-color: red;
-}
+} */
+/* #eight{
+    background-color: red;
+} */
+
 /* =======container 3 =============== */
 #container3
 {
     height: 560px;
-    width: 265px;
+    width: 215px;
     /* border: 2px solid black; */
-    margin-left: 5px;
+    margin-left:-8px;
     margin-top: 12px;
     border-radius: 20px;
 }
@@ -336,6 +401,7 @@ td:hover{
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 80px;
     
 }
 #cont2 #image img{
@@ -464,10 +530,10 @@ td:hover{
     color: white;
 }
 
-/* ===========form edit ================== */
+/* ===========form edit css ================== */
 form{
     /* border: 2px solid black; */
-    border-right: 2px solid black;
+    /* border-right: 2px solid black; */
     position: fixed;
     top:180px;
     background-color:midnightblue;
@@ -479,8 +545,12 @@ form{
 }
 input{
     width: 250px;
-    margin-left: 40px;
+    margin-left: 48px;
     margin-top: 12px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    font-size: 15px;
 }
 label{
     margin-left:15px;
@@ -500,4 +570,12 @@ label{
 #subm:hover{
     background-color: rgb(21, 5, 5);
     color:white;
+}
+/* =========== */
+#cross{
+    height: 5px;
+    margin-left: 310px;
+    margin-top: 10px;
+   font-size: 20px;
+   color: brown;
 }
