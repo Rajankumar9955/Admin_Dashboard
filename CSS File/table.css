@@ -245,6 +245,7 @@ body{
     font-weight: bold;
     color: black;
 }
+/* =============================== */
 #modedark{
     margin-top: 20px;
     height: 70px;
@@ -546,7 +547,7 @@ form{
 input{
     width: 250px;
     margin-left: 48px;
-    margin-top: 12px;
+    margin-top: 5px;
     height: 40px;
     font-size: 18px;
     font-weight: bold;
@@ -571,11 +572,13 @@ label{
     background-color: rgb(21, 5, 5);
     color:white;
 }
-/* =========== */
+/* =========== cross of edit from============= */
 #cross{
-    height: 5px;
+    height: 0px;
     margin-left: 310px;
-    margin-top: 10px;
    font-size: 20px;
    color: brown;
+}
+#cross i{
+    margin-top: 10px;
 }

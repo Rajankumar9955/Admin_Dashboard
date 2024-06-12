@@ -31,6 +31,38 @@
       "email": "hk328368@gmail.com",
       "pass": "Raj@1234",
       "cpass": "Raj@1234"
+    },
+    {
+      "id": "7",
+      "nam": "Rajan kumar",
+      "number": "970822274",
+      "email": "krajan92945@gmail.com",
+      "pass": "vikash@1234",
+      "cpass": "vikash@1234"
+    },
+    {
+      "id": "8",
+      "nam": "Rajan kumar",
+      "number": "970822274",
+      "email": "krajan92945@gmail.com",
+      "pass": "vikash@1234",
+      "cpass": "vikash@1234"
+    },
+    {
+      "id": "9",
+      "nam": "Rajan kumar",
+      "number": "970822274",
+      "email": "krajan92945@gmail.com",
+      "pass": "vikash@1234",
+      "cpass": "vikash@1234"
+    },
+    {
+      "id": "10",
+      "nam": "Rajan kumar",
+      "number": "970822274",
+      "email": "krajan92945@gmail.com",
+      "pass": "vikash@1234",
+      "cpass": "vikash@1234"
     }
   ]
 }

@@ -170,9 +170,9 @@ setInterval(() => {
 
 // cross function
 
-// function cross(){
-//     document.getElementById("cross").style.display="none";
-// }
+function dsp(){
+    document.getElementById('myfrm').style.display="none"
+}
 
 
 
