@@ -168,10 +168,10 @@ setInterval(() => {
 // =======================================
 
 
-// cross function
+// cross on edit form 
 
 function dsp(){
-    document.getElementById('myfrm').style.display="none"
+    document.getElementById('myfrm').style.display="none";
 }
 
 
@@ -185,3 +185,5 @@ function darkk(){
  function dark(){
     document.body.classList.toggle("darkk")
  }
+
+//  ==============

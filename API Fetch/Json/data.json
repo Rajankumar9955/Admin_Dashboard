@@ -4,65 +4,89 @@
       "id": "1",
       "nam": "Rajan kumar",
       "number": "9955236973",
-      "email": "suraj555@gmail.com",
+      "email": "Kraj@gmail.com",
       "pass": "Raj@1234",
       "cpass": "Raj@1234"
     },
     {
       "id": "2",
-      "nam": "suraj kumar",
-      "number": "9955236973",
-      "email": "suraj555@gmail.com",
-      "pass": "Raj@1234",
-      "cpass": "Raj@1234"
+      "nam": "Raj Malhotra",
+      "number": "9708228274",
+      "email": "kraj@gmail.com",
+      "pass": "1234@",
+      "cpass": "1234@"
     },
     {
       "id": "3",
-      "nam": "bittu kumar",
-      "number": "650956294",
-      "email": "hk328368@gmail.com",
-      "pass": "Raj@1234",
+      "nam": "Rahul",
+      "number": "9708228274",
+      "email": "rk@gmail.com",
+      "pass": "Rk@1234",
       "cpass": "Raj@1234"
     },
     {
       "id": "4",
+      "nam": "Suraj kumar",
+      "number": "6206546029",
+      "email": "suraj@gmail.com",
+      "pass": "sk@1234",
+      "cpass": "sk@1234"
+    },
+    {
+      "id": "5",
+      "nam": "Hariom kumar",
+      "number": "6206546029",
+      "email": "suraj@gmail.com",
+      "pass": "sk@1234",
+      "cpass": "sk@1234"
+    },
+    {
+      "id": "6",
       "nam": "bittu kumar",
-      "number": "bittu@85gmail.com",
-      "email": "hk328368@gmail.com",
-      "pass": "Raj@1234",
-      "cpass": "Raj@1234"
+      "number": "9955239520",
+      "email": "bittu@gmail.com",
+      "pass": "dytjh@9620",
+      "cpass": "dytjh@9620"
     },
     {
       "id": "7",
-      "nam": "Rajan kumar",
-      "number": "970822274",
-      "email": "krajan92945@gmail.com",
-      "pass": "vikash@1234",
-      "cpass": "vikash@1234"
+      "nam": "chandan kumar",
+      "number": "6206523545",
+      "email": "ck65@gmail.com",
+      "pass": "ck@gmal.com",
+      "cpass": "ck@gmail.com"
     },
     {
       "id": "8",
-      "nam": "Rajan kumar",
-      "number": "970822274",
-      "email": "krajan92945@gmail.com",
-      "pass": "vikash@1234",
-      "cpass": "vikash@1234"
+      "nam": "Mr Raj",
+      "number": "9568745621",
+      "email": "mrraj@gmail.com",
+      "pass": "Raj@123",
+      "cpass": "Raj@123"
     },
     {
       "id": "9",
-      "nam": "Rajan kumar",
-      "number": "970822274",
-      "email": "krajan92945@gmail.com",
-      "pass": "vikash@1234",
-      "cpass": "vikash@1234"
+      "nam": "Shushil kumar",
+      "number": "620652315",
+      "email": "shushil@gmail.com",
+      "pass": "sk!@1234",
+      "cpass": "sk!@1234"
     },
     {
       "id": "10",
-      "nam": "Rajan kumar",
-      "number": "970822274",
-      "email": "krajan92945@gmail.com",
-      "pass": "vikash@1234",
-      "cpass": "vikash@1234"
+      "nam": "Karan kumar",
+      "number": "9633258741",
+      "email": "karan@gmail.com",
+      "pass": "karan@1234",
+      "cpass": "karan@1234"
+    },
+    {
+      "id": "12",
+      "nam": "kunal kumar",
+      "number": "9633258741",
+      "email": "karan@gmail.com",
+      "pass": "karan@1234",
+      "cpass": "karan@1234"
     }
   ]
 }

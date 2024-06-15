@@ -8,3 +8,12 @@ setInterval(() => {
 function darkk(){
     document.body.classList.toggle('dark')
 }
+
+// ========jquiry of home page of container 3
+$(document).ready(function()
+{
+   
+      
+ 
+    $('#main-container').slideDown(2000);
+})

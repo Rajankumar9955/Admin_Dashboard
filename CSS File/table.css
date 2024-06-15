@@ -241,7 +241,7 @@ body{
     margin-left: 500px;
     margin-top: -45px;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bold;
     color: black;
 }
@@ -276,9 +276,9 @@ body{
 {
     background-color: rgb(163, 112, 161);
     height: 40px;
-    width: 100px;
+    width: 80px;
     font-weight: bold;
-    position: sticky;
+    /* position: sticky; */
 }
 #lal:hover{
     background-color: black;
@@ -287,25 +287,30 @@ body{
 #lal0{
     background-color: rgb(163, 112, 161);
     font-weight: bold;
-    width: 40px;
+    width: 80px;
+    border: 2px solid black;
 }
 #lal0:hover{
     background-color: black;
     color: white;
+  
 }
 #lal1
 {
     background-color: rgb(163, 112, 161);
     font-weight: bold;
+    width: 80px;
 }
 #lal1:hover{
     background-color: black;
     color: white;
+    
 }
 #lal2
 {
     background-color: rgb(163, 112, 161);
     font-weight: bold;
+    width: 80px;
 }
 #lal2:hover{
     background-color: black;
@@ -315,6 +320,7 @@ body{
 {
     background-color: rgb(163, 112, 161);
     font-weight: bold;
+    width: 80px;
 }
 #lal3:hover{
     background-color: black;
@@ -324,28 +330,23 @@ body{
     background-color: rgb(161, 46, 11);
     color:black;
     font-weight: bold;
+    width: 80px;
 }
 #lal5{
     background-color: rgb(2, 182, 35);
     color:black;
     font-weight: bold;
+    width: 80px;
 }
 #tab
 {
     height: 200px;
     width: 740px;
     /* border: 0.5px solid black; */
-    margin-left: 50px;
+    margin-left: 65px;
     margin-top: 20px;
 }
-#tab tr:nth-child(odd)
-{
-    background-color: aquamarine;
-}
-#tab tr:nth-child(even)
-{
-    background-color: rgb(85, 26, 205);
-}
+
 #tab th
 {   
     border:2px solid black ;
@@ -369,6 +370,7 @@ td button
 td:hover{
     background-color: black;
     color: white;
+    
 }
 /* #seven {
     background-color: red;
@@ -552,6 +554,7 @@ input{
     font-size: 18px;
     font-weight: bold;
     font-size: 15px;
+    padding: 1px;
 }
 label{
     margin-left:15px;
@@ -578,6 +581,7 @@ label{
     margin-left: 310px;
    font-size: 20px;
    color: brown;
+   /* border: 1px solid black; */
 }
 #cross i{
     margin-top: 10px;
